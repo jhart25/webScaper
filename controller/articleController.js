@@ -45,8 +45,10 @@ module.exports = {
                     .children("a")
                     .text();
                 result.link = $(this)
+                    .children("header")
+                    .children("h2")
                     .children("a")
-                    .attr("href");
+                    .attr("href")
 
                 db.Article.create(result)
                     .then(function (dbArticle) {
@@ -58,7 +60,7 @@ module.exports = {
             });
 
             res.send("Scrape Complete");
-
+            
 
         });
     }
