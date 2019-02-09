@@ -1,0 +1,31 @@
+{
+  "name": "onion",
+  "version": "1.0.0",
+  "description": "Web app allowing users to view and comment on real news",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^5.4.10",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhart25/webScaper.git"
+  },
+  "keywords": [
+    "k"
+  ],
+  "author": "Jonathan Hart",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhart25/webScaper/issues"
+  },
+  "homepage": "https://github.com/jhart25/webScaper#readme"
+}
